@@ -128,6 +128,12 @@ h2{font-size:clamp(2rem,4.4vw,3.5rem);line-height:1.08}
   .gallery .shot--mid .frame{flex:1;min-height:0;aspect-ratio:auto}
 }
 
+/* Map */
+.map{margin-top:clamp(2.5rem,5vw,4rem)}
+.map iframe{display:block;width:100%;height:clamp(300px,42vw,460px);border:7px solid #fff;border-radius:2px;background:#fff;box-shadow:0 1px 2px rgba(10,37,51,.14),0 14px 34px -8px rgba(10,37,51,.32)}
+.map-link{margin:1rem 0 0}
+.map-link a{text-underline-offset:.3em}
+
 /* Reviews */
 .score{font-family:var(--serif);font-size:clamp(4.5rem,11vw,7.5rem);line-height:1;margin:0 0 .15em}
 .ratings{list-style:none}
